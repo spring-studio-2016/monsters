@@ -1,0 +1,13 @@
+{
+  "name": "Traveler's Notebook: Monster Tales",
+  "short_name": "Traveler's Notebook",
+  "icons": [
+    {
+      "src": "touch-icon.png",
+      "sizes": "60x60",
+      "type": "image/png"
+    }
+  ],
+  "display": "standalone",
+  "orientation": "landscape"
+}

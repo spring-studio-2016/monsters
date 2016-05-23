@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<!--
+  ~ Copyright 2016 Traveler's Notebook: Monster Tales project authors
+  ~
+  ~ This file is part of monsters
+  ~
+  ~ monsters is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ monsters is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with monsters.  If not, see <http://www.gnu.org/licenses/>.
+  -->
+
+<html>
+<head>
+    <title>Traveler's Notebook: Monster Tales</title>
+    <style>
+        @font-face {
+            font-family: "Amarante";
+            src: url(monsters/fonts/Amarante-Regular.ttf);
+        }
+        @font-face {
+            font-family: "Crimson Text";
+            src: url(monsters/fonts/CrimsonText-Roman.ttf);
+        }
+        @font-face {
+            font-family: "Handlee";
+            src: url(monsters/fonts/Handlee-Regular.ttf);
+        }
+        html,body {
+          margin: 0px;
+          overflow-y: hidden;
+          width: 100%;
+          height: 100%;
+        }
+        #playn-root {
+          width: 100%;
+          height: 100%;
+        }
+    </style>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <link rel="apple-touch-icon" href="touch-icon.png">
+
+    <link rel="manifest" href="manifest.json">
+
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-11642955-19', 'auto');
+  ga('send', 'pageview');
+</script>
+</head>
+<body bgcolor="black">
+<div id="playn-root">
+    <span style="font-family:'Amarante';">&nbsp;</span>
+    <span style="font-family:'Crimson Text'">&nbsp;</span>
+    <span style="font-family:'Handlee'">&nbsp;</span>
+</div>
+<script src="monsters/monsters.nocache.js"></script>
+</body>
+</html>

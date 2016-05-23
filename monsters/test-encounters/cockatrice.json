@@ -1,0 +1,48 @@
+{
+  "name": "Cockatrice",
+  "image": "pic",
+  "reactions": [
+    {
+      "name": "Fight",
+      "stories": [{
+        "text": "Story 1",
+        "triggers": [
+          {
+            "skill": "Logic",
+            "conclusion": {
+              "text": "Conclusion 1",
+              "points": 1
+            }
+          },
+          {
+            "conclusion": {
+              "text": "Conclusion 2",
+              "skill": "RewardSkill"
+            }
+          }
+        ]
+      }]
+    },
+    {
+      "name": "Hide",
+      "stories": [{
+        "text": "Story 2",
+        "triggers": [
+          {
+            "conclusion": {
+              "text": "Conclusion 1-A",
+              "points": 1,
+              "skill": "RewardSkill-2"
+            }
+          },
+          {
+            "skill": "Magic",
+            "conclusion": {
+              "text": "Conclusion 2-B"
+            }
+          }
+        ]
+      }]
+    }
+  ]
+}
